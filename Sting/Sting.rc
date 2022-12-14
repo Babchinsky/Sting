@@ -1,0 +1,275 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 465, 216
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,7,36,95,14
+    LTEXT           "Timer",IDC_STATIC_TIME,436,39,18,8
+    PUSHBUTTON      "W",IDC_BUTTON16a,76,82,32,28
+    PUSHBUTTON      "E",IDC_BUTTON17a,108,82,32,28
+    PUSHBUTTON      "R",IDC_BUTTON18a,140,82,32,28
+    PUSHBUTTON      "T",IDC_BUTTON19a,172,82,32,28
+    PUSHBUTTON      "Y",IDC_BUTTON20a,204,82,32,28
+    PUSHBUTTON      "U",IDC_BUTTON21a,236,82,32,28
+    PUSHBUTTON      "I",IDC_BUTTON22a,268,82,32,28
+    PUSHBUTTON      "O",IDC_BUTTON23a,300,82,32,28
+    PUSHBUTTON      "P",IDC_BUTTON24a,332,82,32,28
+    PUSHBUTTON      "[",IDC_BUTTON25a,364,82,32,28
+    PUSHBUTTON      "]",IDC_BUTTON26a,396,82,32,28
+    PUSHBUTTON      "\\",IDC_BUTTON27a,428,82,32,28
+    PUSHBUTTON      "A",IDC_BUTTON29a,54,111,32,28
+    PUSHBUTTON      "S",IDC_BUTTON30a,86,111,32,28
+    PUSHBUTTON      "D",IDC_BUTTON31a,118,111,32,28
+    PUSHBUTTON      "F",IDC_BUTTON32a,150,111,32,28
+    PUSHBUTTON      "G",IDC_BUTTON33a,182,111,32,28
+    PUSHBUTTON      "H",IDC_BUTTON34a,214,111,32,28
+    PUSHBUTTON      "J",IDC_BUTTON35a,246,111,32,28
+    PUSHBUTTON      "K",IDC_BUTTON36a,278,111,32,28
+    PUSHBUTTON      "L",IDC_BUTTON37a,310,111,32,28
+    PUSHBUTTON      ";",IDC_BUTTON38a,342,111,32,28
+    PUSHBUTTON      "'",IDC_BUTTON39a,374,111,32,28
+    PUSHBUTTON      "Enter",IDC_BUTTON40a,406,111,54,28
+    PUSHBUTTON      "Z",IDC_BUTTON42a,70,140,32,28
+    PUSHBUTTON      "X",IDC_BUTTON43a,102,140,32,28
+    PUSHBUTTON      "C",IDC_BUTTON44a,134,140,32,28
+    PUSHBUTTON      "V",IDC_BUTTON45a,166,140,32,28
+    PUSHBUTTON      "B",IDC_BUTTON46a,198,140,32,28
+    PUSHBUTTON      "N",IDC_BUTTON47a,230,140,32,28
+    PUSHBUTTON      "M",IDC_BUTTON48a,262,140,32,28
+    PUSHBUTTON      ",",IDC_BUTTON49a,294,140,32,28
+    PUSHBUTTON      ".",IDC_BUTTON50a,326,140,32,28
+    PUSHBUTTON      "/",IDC_BUTTON51a,358,140,32,28
+    PUSHBUTTON      "Space",IDC_BUTTON56a,109,169,212,28
+    PUSHBUTTON      "Shift",IDC_BUTTON52a,390,140,70,28
+    PUSHBUTTON      "Shift",IDC_BUTTON41a,5,140,65,28
+    PUSHBUTTON      "Caps",IDC_BUTTON28a,6,111,48,28
+    PUSHBUTTON      "Q",IDC_BUTTON15a,44,82,32,28
+    PUSHBUTTON      "Tab",IDC_BUTTON14a,6,82,38,28
+    PUSHBUTTON      "~",IDC_BUTTON0a,6,53,25,28
+    PUSHBUTTON      "1",IDC_BUTTON1a,31,53,32,28
+    PUSHBUTTON      "2",IDC_BUTTON2a,63,53,32,28
+    PUSHBUTTON      "3",IDC_BUTTON3a,95,53,32,28
+    PUSHBUTTON      "4",IDC_BUTTON4a,127,53,32,28
+    PUSHBUTTON      "5",IDC_BUTTON5a,159,53,32,28
+    PUSHBUTTON      "6",IDC_BUTTON6a,191,53,32,28
+    PUSHBUTTON      "7",IDC_BUTTON7a,223,53,32,28
+    PUSHBUTTON      "8",IDC_BUTTON8a,255,53,32,28
+    PUSHBUTTON      "9",IDC_BUTTON9a,287,53,32,28
+    PUSHBUTTON      "0",IDC_BUTTON10a,319,53,32,28
+    PUSHBUTTON      "-",IDC_BUTTON11a,351,53,32,28
+    PUSHBUTTON      "=",IDC_BUTTON12a,383,53,32,28
+    PUSHBUTTON      "Backspace",IDC_BUTTON13a,415,53,45,28
+    PUSHBUTTON      "Ctrl",IDC_BUTTON53a,6,169,34,28
+    PUSHBUTTON      "Win",IDC_BUTTON54a,39,169,38,28
+    PUSHBUTTON      "Alt",IDC_BUTTON55a,77,169,32,28
+    PUSHBUTTON      "Win",IDC_BUTTON58a,355,169,34,28
+    PUSHBUTTON      "Panel",IDC_BUTTON59a,389,169,38,28
+    PUSHBUTTON      "Alt",IDC_BUTTON60a,428,169,32,28
+    PUSHBUTTON      "Alt",IDC_BUTTON57a,321,169,34,28
+    EDITTEXT        IDC_EDIT1,6,7,454,26,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY,WS_EX_STATICEDGE
+    LTEXT           "Ошибок:",IDC_STATIC,115,40,30,8
+    LTEXT           "0",IDC_STATIC_MISTAKES,147,40,8,8
+    LTEXT           "SPM:",IDC_STATIC,164,40,17,8
+    LTEXT           "0",IDC_STATIC_SPM,184,40,17,8
+END
+
+IDD_WIN DIALOGEX 0, 0, 237, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Поздравляю!!! Вы дошли до конца!",IDC_STATIC,7,7,223,14,SS_CENTERIMAGE
+    CONTROL         IDB_BITMAP1,IDC_PICTURE,"Static",SS_BITMAP,7,21,222,154
+    PUSHBUTTON      "Случайный текст",IDC_WIN_RANDOM,7,178,74,14
+    PUSHBUTTON      "Заново",IDC_WIN_RESTART,98,178,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Выход",IDC_WIN_EXIT,180,178,50,14
+END
+
+IDD_LOSE DIALOGEX 0, 0, 263, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Время вышло. Вы програли!",IDC_STATIC,6,0,250,14,SS_CENTERIMAGE
+    PUSHBUTTON      "Случайный текст",IDC_LOSE_RANDOM,6,169,74,14
+    PUSHBUTTON      "Заново",IDC_BUTTON7,106,169,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Выход",IDC_LOSE_EXIT,206,169,50,14
+    CONTROL         IDB_BITMAP2,IDC_STATIC,"Static",SS_BITMAP,6,14,250,154
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        VERTGUIDE, 22
+        VERTGUIDE, 460
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+        HORZGUIDE, 44
+        HORZGUIDE, 102
+        HORZGUIDE, 112
+    END
+
+    IDD_WIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+        HORZGUIDE, 21
+    END
+
+    IDD_LOSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 256
+        VERTGUIDE, 131
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_LOSE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Icon.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Меню"
+    BEGIN
+        MENUITEM "Выход",                       ID_EXIT
+    END
+    POPUP "Уровни"
+    BEGIN
+        MENUITEM "1",                           ID_LEVEL1
+        MENUITEM "2",                           ID_LEVEL2
+        MENUITEM "3",                           ID_LEVEL3
+        MENUITEM "4",                           ID_LEVEL4
+        MENUITEM "5",                           ID_LEVEL5
+        MENUITEM "Случайный",                   ID_LEVEL_RANDOM
+    END
+    POPUP "Настройка"
+    BEGIN
+        MENUITEM "Шрифт",                       ID_FONT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "fireworks.bmp"
+
+IDB_BITMAP2             BITMAP                  "GameOver.bmp"
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
